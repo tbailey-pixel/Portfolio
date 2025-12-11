@@ -45,7 +45,7 @@ header ul li a {
     color: black;
 }
 header ul li a:hover {
-    background-color: rgb(142, 142, 142);
+    background-color: rgb(164, 164, 164);
 }
 body {
     margin: 0;
@@ -119,6 +119,12 @@ h3 {
 .Soc svg {
     margin: 0 1rem;
 }
+.Soc a {
+    text-decoration: none;
+}
+.Res {
+    text-align: center;
+}
 .big {
     color: #000;
     text-align: center;
@@ -133,6 +139,7 @@ h3 {
     color: #000;
     font-family: Merriweather;
     font-size: 14px;
+    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
@@ -190,7 +197,7 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 10px 20px 0 0;
+    margin: 0px 20px 0 0;
 }
 footer p {
     color: #000;
@@ -222,7 +229,7 @@ footer p {
         margin: 0 10px;
     }
     .MyStory {
-        max-width: 25ch;
+        max-width: 20ch;
     }
     h2 {
         font-size: 100px;
@@ -239,5 +246,11 @@ footer p {
     }
     h3 {
         margin: 5px 0;
+    }
+    .Exp {
+        margin-right: 10px;
+    }
+    .big {
+        font-size: 18px;
     }
 }
