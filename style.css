@@ -203,7 +203,7 @@ h4 {
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 60px;
     margin: 10px 20px 0 0;
 }
 footer p {
@@ -262,9 +262,6 @@ footer p {
     }
 }
 
-/* .info {
-        max-width: 50ch;
-    } */
 .extra {
     font-size: 12px;
     font-style: italic;
@@ -275,28 +272,35 @@ footer p {
 .TitleRight {
     text-align: right;
 }
-.Photo1
-    {
-        display: flex;
-        flex-direction: row;
-        margin: 0 30px;
-justify-content: space-between;
-    }
+.Photo1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px;
+}
 .Photo1Text {   
     text-align: left;
     flex-grow: 1;
 }
+.Photo1Text p {
+    max-width: 32ch;
+}
 .Photo2 {
-        display: flex;
-        margin: 0 30px;
-        justify-content: space-between;
-    }
+    display: flex;
+    margin: 0 30px;
+    justify-content: space-between;
+}
 .Photo2Text {   
     text-align: right;
     flex-grow: 1;
+    max-width: 32ch;
 }
 .Behind2 {
     background-color: #c5c2ff;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.Photo1 img {
+    min-width: 400px;
 }
 
 
