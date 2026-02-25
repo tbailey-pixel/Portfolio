@@ -173,22 +173,25 @@ main img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 .FineArt {
     background-image: url("Photos/MaryBust.png");
     background-size: cover;
     background-position: center; 
+    padding-bottom: 10px;
 }
 .Photography {
     background-image: url("Photos/Lax-Background.png");
     background-size: cover;
     background-position: center; 
+    padding-bottom: 10px;
 }
 .Graphic {
     background-image: url("Photos/AliceInWonderland.png");
     background-size: cover;
     background-position: center; 
+    padding-bottom: 10px;
 }
 footer {
     display: flex;
@@ -302,5 +305,15 @@ footer p {
 .Photo1 img {
     min-width: 400px;
 }
-
+.smallphoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.SeeMore {
+    text-decoration: none;
+    font-size: 50px;
+    text-align: center;
+    font-family: Italianno;
+}
 
