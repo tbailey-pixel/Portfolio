@@ -106,7 +106,7 @@ h3 {
     text-align: center;
 }
 .First {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .MoreCenter {
     display: flex;
@@ -226,6 +226,17 @@ footer p {
     .MoreRight {
         margin: 0 2rem;
     }
+    .Photo11 {
+        flex-wrap: wrap;
+    }
+    .cover img {
+    margin: 0;
+}
+    .cover {
+        gap: 5px;
+        margin: 0;
+        justify-content: flex-start;
+    }
 }
 @media screen and (max-width: 1210px) {
      .MoreRight {
@@ -263,6 +274,29 @@ footer p {
     .big {
         font-size: 18px;
     }
+    .Photo1 {
+        flex-direction: column;
+    }
+     .Photo1Text p {
+      max-width: 100%;
+   }
+   .Photo2 {
+    margin: 0;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+   }
+   .Photo2Text {
+    margin: 10px 0;
+    max-width: none;
+    text-align: right;
+   }
+   .smallphoto img {
+    width: 200px;
+   }
+   .Behind2 {
+    padding: 20px 30px;
+   }
 }
 
 .extra {
@@ -279,10 +313,18 @@ footer p {
     display: flex;
     flex-direction: row;
     margin: 0 30px;
+    flex-wrap: wrap;
+}
+.Photo11 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px;
+    /* flex-wrap: wrap; */
 }
 .Photo1Text {   
     text-align: left;
-    flex-grow: 1;
+    flex: 1 1 400px;
+    min-width: 300px;
 }
 .Photo1Text p {
     max-width: 32ch;
@@ -291,6 +333,7 @@ footer p {
     display: flex;
     margin: 0 30px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .Photo2Text {   
     text-align: right;
@@ -309,6 +352,7 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .SeeMore {
     text-decoration: none;
@@ -316,4 +360,14 @@ footer p {
     text-align: center;
     font-family: Italianno;
 }
-
+.cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex: 0 1 auto; 
+    gap: 20px;
+}
+.cover img {
+    margin: 10px 20px;
+}
